@@ -1,14 +1,14 @@
 import React from "react";
 import Head from "../components/Haed";
 
-const TestSpacePage = () => {
+const AboutPage = () => {
   return (
     <main>
-      <title>Test Space Page</title>
+      <title>About Page</title>
       <Head></Head>
-      <h1>Test Space Page</h1>
+      <h1>About Page</h1>
     </main>
   );
 };
 
-export default TestSpacePage;
+export default AboutPage;
