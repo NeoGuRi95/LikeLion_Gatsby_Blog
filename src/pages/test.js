@@ -1,14 +1,14 @@
 import React from "react";
-import Head from "../components/Haed";
+import Layout from "../components/layout";
 
-const TestPage = () => {
+function TestPage() {
   return (
-    <main>
-      <title>Test Page</title>
-      <Head></Head>
-      <h1>Test Page</h1>
-    </main>
+    <Layout>
+      <title>테스트</title>
+
+      <h1>테스트 페이지 입니다.</h1>
+    </Layout>
   );
-};
+}
 
 export default TestPage;

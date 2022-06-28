@@ -1,14 +1,14 @@
 import React from "react";
-import Head from "../components/Haed";
+import Layout from "../components/layout";
 
-const AboutPage = () => {
+function AboutPage() {
   return (
-    <main>
-      <title>About Page</title>
-      <Head></Head>
-      <h1>About Page</h1>
-    </main>
+    <Layout>
+      <title>자기소개</title>
+
+      <h1>자기소개 페이지 입니다.</h1>
+    </Layout>
   );
-};
+}
 
 export default AboutPage;

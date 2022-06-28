@@ -1,14 +1,14 @@
 import React from "react";
-import Head from "../components/Haed";
+import Layout from "../components/layout";
 
-const TestSpacePage = () => {
+function TestSpacePage() {
   return (
-    <main>
-      <title>Test Space Page</title>
-      <Head></Head>
-      <h1>Test Space Page</h1>
-    </main>
+    <Layout>
+      <title>테스트 스페이스</title>
+
+      <h1>테스트 스페이스 페이지 입니다.</h1>
+    </Layout>
   );
-};
+}
 
 export default TestSpacePage;
