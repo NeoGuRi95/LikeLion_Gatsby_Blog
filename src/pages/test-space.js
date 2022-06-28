@@ -1,6 +1,6 @@
 import React from "react";
 
-const IndexPage = () => {
+const TestSpacePage = () => {
   return (
     <main>
       <title>Test Space Page</title>
@@ -9,4 +9,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default TestSpacePage;
